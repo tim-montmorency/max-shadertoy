@@ -8,14 +8,17 @@ Versions Cycling ’74 Max (version 8.5 minimum) de nuanceurs Shadertoy.
 Ce dépôt facile la conversion et le partage des shaders de Shadertoy. :
 * Vous trouverez ci-bas une transcription du fichier JXS partagé avec la version 8.5 de Max qui permet d'interpréter le code de Shadertoy. Il faut un fichier par *Buffer*.
 * Un *patcher Max* qui permet de mieux manipuler les nuanciers convertis. Ce patcher exige cependant le paquet [thomasfredericks/tof-max](https://github.com/thomasfredericks/tof-max) pour Max.
+* Un dossier *shadertoy* qui contient les nuanceurs convertis.
 
 
-et regroupe aussi les nuanceurs convertis par les étudiants du programme de Techniques d'intégration multimédia.
+## Exemples dans Max
+Vous pouvez consulter les exemples déjà dans Max en ouvrant les exemples *glcore*:
+![Exemples glcore](max_850_glcore_shaderdtoy.png)
 
 ## Fichier JXS pour l'interprétation du code de Shadertoy
 
-1. Sauvegardez un fichier avec l'extension *.jxs* sur votre ordinateur. 
-2. Nommez le avec le même nom que le Shadertoy en remplaçant les espaces par des _. 
+1. Créez un fichier texte avec l'extension *.jxs* sur votre ordinateur. 
+2. Nommez-le avec le préfixe «shadertoy-» suivi du nom du démo Shadertoy en remplaçant les espaces par des _. 
 3. Copiez-y le code suivant:
 ```
 <jittershader name="stripes">
