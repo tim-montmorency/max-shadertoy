@@ -8,7 +8,7 @@ Versions Cycling ’74 Max (version 8.5 minimum) de nuanceurs Shadertoy.
 Ce dépôt facile la conversion et le partage des shaders de Shadertoy. :
 * Vous trouverez ci-bas une transcription du fichier JXS partagé avec la version 8.5 de Max qui permet d'interpréter le code de Shadertoy. Il faut un fichier par *Buffer*.
 * Un *patcher Max* qui permet de mieux manipuler les nuanciers convertis. Ce patcher exige cependant le paquet [thomasfredericks/tof-max](https://github.com/thomasfredericks/tof-max) pour Max.
-* Un dossier *shadertoy* qui contient les nuanceurs convertis.
+* Un dossier *shadertoys* qui contient les nuanceurs convertis dans des dossiers individuels.
 
 
 ## Exemples dans Max
