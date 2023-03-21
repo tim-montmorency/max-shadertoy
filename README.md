@@ -3,14 +3,20 @@ Versions Cycling ’74 Max (version 8.5 minimum) de nuanceurs Shadertoy.
 
 ## Introduction
 
-Shadertoy.com est un site Web populaire pour partager des démos de nuanceurs. Beaucoup d'entre eux sont animés et s'appuient sur les nouvelles fonctionnalités GLSL. 
+[Shadertoy.com](https://www.shadertoy.com/) est un site Web populaire pour partager des démos de nuanceurs. 
 
-Ce dépôt redstribue le fichier JXS partagé avec la version 8.5 de Max qui permet d'inclure les fonctionnalités de base des effets Shadertoy à tampon unique et regroupe aussi les nuanceurs convertis par les étudiants du programme de Techniques d'intégration multimédia.
+Ce dépôt facile la conversion et le partage des shaders de Shadertoy. :
+* Vous trouverez ci-bas une transcription du fichier JXS partagé avec la version 8.5 de Max qui permet d'interpréter le code de Shadertoy. Il faut un fichier par *Buffer*.
+* Un *patcher Max* qui permet de mieux manipuler les nuanciers convertis. Ce patcher exige cependant le paquet [thomasfredericks/tof-max](https://github.com/thomasfredericks/tof-max) pour Max.
 
-## Code de base du nuanceur
 
-Coller le code du nuanceur Shadertoy entre les commentaires `// <<<<<<<<< START SHADERTOY PASTE ` et `// <<<<<<<<< END SHADERTOY PASTE` du fichier JXS suivant :
+et regroupe aussi les nuanceurs convertis par les étudiants du programme de Techniques d'intégration multimédia.
 
+## Fichier JXS pour l'interprétation du code de Shadertoy
+
+1. Sauvegardez un fichier avec l'extension *.jxs* sur votre ordinateur. 
+2. Nommez le avec le même nom que le Shadertoy en remplaçant les espaces par des _. 
+3. Copiez-y le code suivant:
 ```
 <jittershader name="stripes">
     <param name="modelViewProjectionMatrix" type="mat4" state="MODELVIEW_PROJECTION_MATRIX" />
@@ -87,4 +93,11 @@ Coller le code du nuanceur Shadertoy entre les commentaires `// <<<<<<<<< START 
     </language>
 </jittershader>
 
+```
+
+4. Collez le code source du nuanceur Shadertoy entre la paire de commentaires du code précédent :
+```
+// <<<<<<<<< START SHADERTOY PASTE 
+
+// <<<<<<<<< END SHADERTOY PASTE
 ```
