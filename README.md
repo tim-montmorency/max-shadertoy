@@ -104,3 +104,7 @@ Vous pouvez consulter les exemples déjà dans Max en ouvrant les exemples *glco
 
 // <<<<<<<<< END SHADERTOY PASTE
 ```
+
+## Patcher Max pour manipuler le nuancier
+
+![Patcher Max pour manipuler le nuancier](shadertoy-nom_du_demo_maxpat.png)
