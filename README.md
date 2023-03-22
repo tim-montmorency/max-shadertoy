@@ -107,6 +107,6 @@ Vous pouvez consulter les exemples déjà dans Max en ouvrant les exemples *glco
 
 ## Patcher Max pour manipuler le nuancier
 
-Ce patcher exige cependant le paquet [thomasfredericks/tof-max](https://github.com/thomasfredericks/tof-max) pour Max. Il est disponible dans le dossier de dépôt et porte le nom [shadertoy-nom_du_demo.maxpat](shadertoy-nom_du_demo.maxpat).
+Ce patcher permet de manipuler les variables des nuanceurs Shadertoy convertis.  Il est disponible dans le dossier de dépôt et porte le nom [shadertoy-nom_du_demo.maxpat](shadertoy-nom_du_demo.maxpat). Il requiert cependant le paquet [thomasfredericks/tof-max](https://github.com/thomasfredericks/tof-max) pour Max.
 
 ![Patcher Max pour manipuler le nuancier](shadertoy-nom_du_demo_maxpat.png)
