@@ -1,5 +1,5 @@
 # max-shadertoy
-Versions Cycling ’74 Max (version 8.5 minimum) de nuanceurs Shadertoy.
+Nuanceurs Shadertoy pour Cycling ’74 Max (8.5+)
 
 ## Introduction
 
